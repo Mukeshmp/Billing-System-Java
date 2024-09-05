@@ -5,7 +5,7 @@
    - The system follows a **layered architecture**:
      - **Presentation Layer:** Java Swing is used to create a user-friendly graphical interface.
      - **Business Logic Layer:** The core functionalities for managing products, transactions, and stock are implemented using object-oriented programming.
-     - **Data Access Layer:** JDBC or Hibernate is used to manage communication with the database for product and transaction data.
+     - **Data Access Layer:** JDBC is used to manage communication with the database for product and transaction data.
 
 #### 2. **Modules**
 
@@ -43,7 +43,7 @@
 #### 6. **Technology Stack**
    - **Frontend:** Java Swing for building the GUI.
    - **Backend:** Java for business logic and data processing.
-   - **Database:** MySQL or any relational database, integrated using JDBC or Hibernate ORM for data persistence.
+   - **Database:** MySQL , integrated using JDBC for data persistence.
 
 #### 7. **Error Handling & Logging**
    - Error handling mechanisms are integrated to catch and report issues during transactions, stock updates, and database operations.
